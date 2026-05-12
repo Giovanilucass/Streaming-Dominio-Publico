@@ -4,9 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import br.com.voltantes.bd2.streaming_dominio_publico.Mappers.Mapper;
 import br.com.voltantes.bd2.streaming_dominio_publico.domain.dto.AtorDto;
 import br.com.voltantes.bd2.streaming_dominio_publico.domain.entities.AtorEntity;
-import br.com.voltantes.bd2.streaming_dominio_publico.Mappers.Mapper;
 
 
 @Component

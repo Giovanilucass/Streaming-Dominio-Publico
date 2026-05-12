@@ -7,9 +7,9 @@ import br.com.voltantes.bd2.streaming_dominio_publico.domain.entities.AtorEntity
 // Definindo todos os possíveis métodos para o Autor
 public interface AtorService{ 
 
-    public AtorEntity saveAutor(AtorEntity autor);
+    public AtorEntity saveAtor(AtorEntity autor);
 
-    public AtorEntity saveAutor (long id, AtorEntity autor);
+    public AtorEntity saveAtor (long id, AtorEntity autor);
 
     public List<AtorEntity> findAllAtores();
     //Dado Optional -> Só pega o resultado caso exista, 
